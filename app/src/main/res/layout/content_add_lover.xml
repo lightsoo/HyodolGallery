@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="swmaestro.lightsoo.hyodolgallery.Setting.AddLoverActivity"
+    tools:showIn="@layout/activity_add_lover">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/relativeLayout1"
+            android:layout_width="match_parent"
+            android:layout_height="57dp"
+            android:background="@color/colorPrimaryDark">
+
+            <TextView
+                android:id="@+id/textVie2w2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="24dp"
+                android:text="나의 아이디"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/imageView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/line_text" />
+
+        <RelativeLayout
+
+            android:id="@+id/relativeLayout5"
+            android:layout_width="match_parent"
+            android:layout_height="57dp"
+            android:background="@android:color/white">
+
+            <TextView
+                android:id="@+id/tv_myid"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="24dp"
+                android:text="아이디"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linearLayout"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/relativeLayout6"
+            android:layout_width="match_parent"
+            android:layout_height="57dp"
+            android:background="@color/colorPrimaryDark">
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="24dp"
+                android:text="연인 아이디"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/line_text" />
+
+        <RelativeLayout
+
+            android:id="@+id/relativeLayout7"
+            android:layout_width="match_parent"
+            android:layout_height="57dp"
+            android:background="@android:color/white">
+
+            <TextView
+                android:id="@+id/tv_lover_email"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="24dp"
+                android:text="아이디"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:visibility="gone" />
+
+            <EditText
+                android:id="@+id/et_lover_email"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="24dp"
+                android:background="@null"
+                android:hint="연인의 아이디를 입력하세요"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:visibility="visible" />
+
+        </RelativeLayout>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_lover_make"
+        android:layout_width="match_parent"
+        android:layout_height="47.67dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:background="@color/colorPrimary"
+        android:text="기념일 공유하기"
+        android:textSize="17dp" />
+</RelativeLayout>

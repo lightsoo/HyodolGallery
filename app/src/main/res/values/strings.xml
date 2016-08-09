@@ -1,4 +1,16 @@
 <resources>
     <string name="app_name">HyodolGallery</string>
     <string name="action_settings">Settings</string>
+
+    <string name="GCM_SenderId">597872888580</string>
+    <string name="facebook_app_id">526626234193908</string>
+
+
+    <string name="title_activity_add_event">AddEventActivity</string>
+    <string name="title_activity_info_event">InfoEventActivity</string>
+    <string name="title_activity_signup">회원가입</string>
+    <string name="title_activity_add_lover">AddLoverActivity</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+    <string name="title_activity_add_anni">AddAnniActivity</string>
+
 </resources>
